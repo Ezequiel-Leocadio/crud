@@ -1,0 +1,39 @@
+instale o python
+entre nesta pasta 
+digite:
+python -m venv venv
+
+ative a venv:
+cd venv/scripts
+activate
+
+instale o django:
+pip install django
+
+inicie um projeto:
+django-admin startproject project .
+
+inicie um app:
+django-admin startapp products
+
+registre a app em installed-app do projeto
+
+depois de criar o models faca:
+python manage.py makemigrations
+
+depois 
+python manage.py migrate
+
+
+
+e execute 
+python manage.py runserver
+
+
+pare o servidor
+
+para acessar o django admin
+
+python manage.py createsuperuser
+
+
