@@ -37,3 +37,4 @@ para acessar o django admin
 python manage.py createsuperuser
 
 
+teste pc 
